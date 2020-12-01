@@ -1,0 +1,20 @@
+#game-container {
+  display: grid;
+  width: 400px;
+  height: 400px;
+  border: 2px solid #01110A;
+}
+
+.cell {
+  content: '';
+  background-color: #005229;
+  border: 2px solid #01110A;
+}
+
+.cell-with-goblin {
+  background-image: url(2dbd01ce16c0fa83cb67e20c73dedb66.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
